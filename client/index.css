@@ -1,0 +1,168 @@
+@font-face {
+  font-family: Gilroy;
+  src: url('web-fonts/Gilroy-ExtraBold.otf');
+  font-style: bold;
+}
+
+html{
+  height: 100%;
+  }
+
+body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  background:-webkit-linear-gradient(top, rgba(133,104,135,1) 0%, rgba(79,130,193,1) 100%);
+  background:-o-linear-gradient(top, rgba(133,104,135,1) 0%, rgba(79,130,193,1) 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, rgba(133,104,135,1) 0%, rgba(79,130,193,1) 100%);/* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, rgba(133,104,135,1) 0%, rgba(79,130,193,1) 100%); /* Standard syntax */
+
+
+}
+
+
+.rodar-index{
+  width: 44%;
+  height: auto;
+  margin: 0 auto;
+  vertical-align: middle;
+  margin-top: 34%;
+  margin-left: 28%;
+  pointer-events: none;
+}
+
+a.logo {
+}
+
+.main {
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.img-footer {
+  margin: 0 auto;
+}
+
+
+h1{
+  font-family: Gilroy,helvetica,sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+div.img-footer {
+  text-align: center;
+}
+
+.imagem-ourworld{
+  padding-top: 5%;
+  width: 70%;
+}
+
+.instrucoes{
+  width: 45%;
+}
+
+.logo{
+  position: absolute;
+  width: 65%;
+  height: auto;
+  padding-top: 25%;
+  padding-left: 18%;
+
+}
+
+.rodar{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  vertical-align: middle;
+  position: fixed;
+  top: 20%;
+  left: 5%;
+}
+
+ol{
+  list-style: none;
+  width: 100%;
+  position: absolute;
+  bottom: 150px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: -48px;
+}
+ol li{
+  border: 2px solid white;
+  background-color: white; opacity: 0.5;
+  border-radius: 50%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#seta-footer{
+  position: absolute;
+  height: 50px;
+  bottom: 0;
+  margin-left: 48%;
+}
+
+#seta-cima{
+  width: 40px;
+}
+
+
+h1{
+  font-family: Gilroy,helvetica,sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.texto{
+  position: absolute;
+  margin-top: -340px;
+  margin-left: 500px;
+}
+
+#close{
+  position: absolute;
+  z-index: 30;
+  height: 20px;
+  width: 20px;
+  top: 5.9%;
+  left: 60%;
+  font-size: 1em;
+  color: grey;
+}
+
+#menu{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 5.9%;
+  left: 10%;
+  font-size: 2em;
+  color: white;
+}
+
+#seta-baixo{
+  position: absolute;
+  z-index: 30;
+  left: 48%;
+  top: 11%;
+  width: 40px;
+}
+
+#titulos{
+  font-family: Gilroy;
+  font-size:150%;
+  color: white;
+  right: 10%;
+  top: 8%;
+  position:absolute;
+}
+

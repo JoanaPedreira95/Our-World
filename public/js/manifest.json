@@ -1,0 +1,13 @@
+{
+  "name": "Our World",
+  "icons": [
+      "src": "img/icon-1-01.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "density": 1.5
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -1,0 +1,49 @@
+<template name="oceanmass">
+    <div class="wrapper-oceanmass"></div>
+    <div id="menu-oceanos">
+      <i id="close" class="fa fa-times" aria-hidden="true">
+      </i><img class="imagem-menu" alt="menu" src="../img/menu-volumeoceanos.png"/>
+    </div>
+
+    <div id="legenda-oceanos">
+      <img id="seta-baixo" alt="seta-fecho" src="../img/seta-baixo.png"/>
+      <img class="imagem-legenda" alt="legenda" src="../img/legenda-oceanos.png"/>
+    </div>
+
+    <div id=titulos>{{titulo}}</div>
+
+    <div id="menu">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+
+    <img class="rodar" src="../img/G3.png">
+
+    <ol class="footer">
+        <li></li>
+        <li></li>
+        <li style="background: white; opacity: 1"></li>
+        <li></li>
+    </ol>
+
+      <div id="seta-footer"><img id="seta-cima" alt="seta-cima" src="../img/seta-cima.png"/></div>
+
+    <audio id="audio" src="audio/oceanmass.mp3" type="audio/mpeg">
+    </audio>
+    <script type="text/javascript">
+        handleMenus('menu-oceanos','legenda-oceanos');
+
+
+        var hammertime = new Hammer(document.body, {});
+        hammertime.get('swipe').set({direction: Hammer.DIRECTION_HORIZONTAL});
+
+        hammertime.on('swipeleft', function (ev) {
+            Session.set('templateName','niveisdeco2');
+        });
+
+        hammertime.on('swiperight', function (ev) {
+            Session.set('templateName','antartidamass');
+        });
+
+    </script>
+
+</template>

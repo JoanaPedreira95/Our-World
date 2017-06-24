@@ -1,0 +1,36 @@
+
+  .imagem-menu{
+    width: 70%;
+  }
+
+  #menu-niveisco2{
+    position: absolute;
+    z-index: 40;
+    top: 0;
+    height: 100%;
+    left: 0;
+    display: none;
+  }
+
+  #legenda-co2{
+    position: absolute;
+    z-index: 30;
+    bottom: -7px;
+    left: 0;
+    display: none;
+  }
+
+  .imagem-legenda{
+    width: 100%;
+  }
+
+.wrapper-niveisdeco2 {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  background:  -webkit-linear-gradient(top, rgba(79,130,193,1) 0%, rgba(133,104,135,1) 100%);
+  background: -o-linear-gradient(top, rgba(79,130,193,1) 0%, rgba(133,104,135,1) 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, rgba(79,130,193,1) 0%, rgba(133,104,135,1) 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(top, rgba(79,130,193,1) 0%, rgba(133,104,135,1) 100%); /* Standard syntax */
+
+}

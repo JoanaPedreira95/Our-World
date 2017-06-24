@@ -1,0 +1,36 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content="Routes Direct">
+    <meta name="mobile-web-app-title" content="Our World">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, minimal-ui, maximum-scale=1, minimum-scale=1"/>
+    <link rel="apple-touch-icon" href="img/icon-1-01.png">
+    <link rel="touch-icon" href="img/icon-1-01.png">
+    <link rel="manifest" href="js/manifest.json">
+
+    <link type="text/css" rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/handleMenuClicks.js"></script>
+    <title>Our world</title>
+</head>
+<body>
+
+    {{#if templateName}}
+        {{> Template.dynamic template=templateName }}
+    {{else}}
+        {{> index}}
+    {{/if}}
+
+</body>
+
+<template name="index">
+    <div class="main">
+        <img class="logo" src="img/logo-fixo-novo2.png" style="cursor: pointer;">
+        <img class="rodar-index" src="img/logoroda2.png">
+    </div>
+    <div class="img-footer">
+        <img class="imagem-ourworld" src="img/letraslogo.png">
+        <img class="instrucoes" src="img/instrucoes-logo.png">
+    </div>
+</template>
